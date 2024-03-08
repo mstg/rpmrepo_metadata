@@ -28,3 +28,6 @@ pub use metadata::{
 pub use package::PackageIterator;
 pub use repository::{Repository, RepositoryOptions, RepositoryReader, RepositoryWriter};
 pub use updateinfo::UpdateinfoXmlReader;
+pub use primary::PrimaryXmlWriter;
+pub use filelist::FilelistsXmlWriter;
+pub use other::OtherXmlWriter;
